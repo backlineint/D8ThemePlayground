@@ -1,0 +1,9 @@
+test-lib:
+  version: 1.x
+  css:
+    theme:
+      css/walkthrough.css: {}
+  js:
+    js/walkthrough.js: {}
+  dependencies:
+    - core/jquery

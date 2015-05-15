@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter for page templates.
+ *
+ * Adds a new template suggestion.
+ */
+function walkthrough_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  // Todo - find a way to only enable this template on a specific page - D7 approach doesn't seem to work.
+    $suggestions [] = 'page__' . 'test';
+}
