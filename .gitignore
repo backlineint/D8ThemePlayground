@@ -1,0 +1,12 @@
+# Ignore the existing themes readme
+readme.txt
+
+# OS Files
+.DS_Store
+
+# Supporting SASS Files
+.sass-cache
+*.css.map
+
+# Node Modules
+node_modules

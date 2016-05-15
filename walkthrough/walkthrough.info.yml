@@ -8,6 +8,15 @@ libraries:
   - walkthrough/test-lib
 #stylesheets-remove:
 #  - core/assets/vendor/normalize-css/normalize.css
+
+# This section is used by the contrib module, Component Libraries. It allows you
+# to reference .twig files in your sass/ directory by using the Twig namespace:
+# @components
+component-libraries:
+  components:
+    paths:
+      - components
+      - templates
 regions:
   header: Header
   content: Content
