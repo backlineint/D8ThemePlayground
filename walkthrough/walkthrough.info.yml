@@ -2,7 +2,7 @@ name: Walkthrough
 type: theme
 description: 'Just getting to know D8 theming'
 package: Walkthrough
-base theme: classy
+base theme: bartik
 core: 8.x
 libraries:
   - walkthrough/test-lib
